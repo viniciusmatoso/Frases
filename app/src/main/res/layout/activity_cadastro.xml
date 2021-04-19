@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/cinza"
+    tools:context=".activity.CadastroActivity">
+
+    <TextView
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_gravity="center"
+        android:textColor="@color/amarelo"
+        android:text="Cria sua conta e junte a nós!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:padding="32dp"
+        android:layout_margin="32dp"
+        android:background="@drawable/bg_cadastro"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:textColor="@color/amarelo"
+            android:id="@+id/etNome"
+            android:gravity="center"
+            android:hint="Nome"
+            android:textColorHint="@color/white"
+            android:layout_gravity="center"
+            android:background="@drawable/et_custom"
+            android:layout_width="300dp"
+            android:layout_height="50dp"/>
+
+        <EditText
+            android:inputType="number"
+            android:textColor="@color/amarelo"
+            android:id="@+id/etIdade"
+            android:gravity="center"
+            android:hint="Idade"
+            android:textColorHint="@color/white"
+            android:background="@drawable/et_custom"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"/>
+
+        <RadioGroup
+            android:id="@+id/rgSexo"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbMasc"
+                android:buttonTint="@color/cinza"
+                android:textSize="20sp"
+                android:text="Masculino"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/rbFem"
+                android:layout_marginLeft="12dp"
+                android:buttonTint="@color/cinza"
+                android:textSize="20sp"
+                android:text="Feminino"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+        <EditText
+            android:inputType="textEmailAddress"
+            android:textColor="@color/amarelo"
+            android:id="@+id/etEmail"
+            android:gravity="center"
+            android:hint="Email"
+            android:textColorHint="@color/white"
+            android:layout_gravity="center"
+            android:background="@drawable/et_custom"
+            android:layout_marginTop="8dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp" />
+
+        <EditText
+            android:inputType="textPassword"
+            android:textColor="@color/amarelo"
+            android:id="@+id/etSenha"
+            android:gravity="center"
+            android:hint="Senha"
+            android:textColorHint="@color/white"
+            android:layout_gravity="center"
+            android:background="@drawable/et_custom"
+            android:layout_marginTop="8dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"/>
+
+        <Button
+            android:textColor="@color/amarelo"
+            app:backgroundTint="@null"
+            android:background="@drawable/btn_cadastrar"
+            android:id="@+id/btnCadastrar"
+            android:layout_marginTop="32dp"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:text="Cadastrar"/>
+
+    </LinearLayout>
+
+</LinearLayout>

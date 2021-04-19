@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "646052967903",
+    "project_id": "frasesnerd-aa76f",
+    "storage_bucket": "frasesnerd-aa76f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646052967903:android:0c153ba9a30a546d20c06a",
+        "android_client_info": {
+          "package_name": "com.br.frases"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646052967903-0nbn0098ciqud4rmr0rstqgpik6ufdb3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.br.frases",
+            "certificate_hash": "0b0f4d62065ee78e2f90dc92e0c44aaa6951ec58"
+          }
+        },
+        {
+          "client_id": "646052967903-kg22v9m9p9ae25hueoh2k6s3gd7ngebj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvlVMUb2TsTvAtA-siGjrxBaUZ1p2txnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646052967903-kg22v9m9p9ae25hueoh2k6s3gd7ngebj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
